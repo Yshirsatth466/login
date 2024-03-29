@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("");
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+form{
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 6%;
+  padding: 4%;
+  margin:13%;
+
+}
+.name{
+  text-align: center;
+}
+input{
+  border-radius: 14%;
+  padding:5px;
+ 
+}
+#b1{
+  background-color: rgb(61, 61, 239);
+  padding:0.4rem ;
+  padding-right:0.4rem ;
+  margin: 0.10rem;
+  
+}
+#b2{ 
+  background-color: rgb(64, 223, 64);
+  padding:0.4rem ;
+}
+#b1:hover{
+  background-color: red;
+}
+.text:hover{
+  background-color:rgb(152, 143, 143);
+}
+.pass:hover{
+  background-color:rgb(152, 143, 143);
+}
+.name:hover{
+color:rgb(49, 76, 213);
+}
